@@ -234,6 +234,7 @@
       </a>
     </div>
     <!-- Research lines extra info -->
+    <!-- Product quality -->
     <div class="portfolio-modal modal fade" id="quantitative" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -244,96 +245,87 @@
         </div>
         <div class="container">
           <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-              <div class="modal-body">
-                <h2>Quantitative Analysis</h2>
-                <h4>Process quality in cloud-related software development projects</h4>
-                <hr class="star-primary">
-                <p>Enterprise cloud applications are usually complex pieces of
-                  software, build by loosely coupled, geographically
-                  distributed, large teams of developers.  They work in many
-                  different domain areas, and have to keep-up with the pressing
-                  needs of a quickly-evolving industry, while at the same time
-                  keeping quality and performance under control.  In this
-                  environment, causal information obtained by just "keeping an
-                  eye" on how the project evolves is less than enough.
-                  Methodical approaches, supported by tools that deal with the
-                  rich information obtained from software development
-                  repositories, is needed to have a complete view of how the
-                  project is behaving, evolving and performing. This work
-                  package will address these needs by looking at specific
-                  aspects of the problem (determining performance parameters,
-                  characterizing software development systems), and providing
-                  comprehensive solutions (data driven development software).
-                </p>
-                <h3> Research Topics </h3>
-                <ul class="list-inline item-details">
-                  <li>
-                    <h4>Bad process smells in software development repositories </h4>
-                    <p>Similar to how "code smells" help to find constructs in
-                      source code that could be more error-prone, "process
-                      smells" help to detect patterns in software development
-                      processes that could lead to errors. To detect them,
-                      information is extracted from software development
-                      repositories (source code management systems, issues
-                      tracking system, code review system, etc.), and analyzed
-                      with statistical and other techniques. The detection of
-                      these patterns can lead to take early corrective actions,
-                      which are very important specially in systems with high
-                      time-to- deploy constraints, such as those related to
-                      cloud computing.
-                    </p>
-                  </li>
-                  <li>
-                    <h4>Quality assurance of software-defined cloud infrastructure </h4>
-                    <p>A driving objective within the cloud computing domain is
-                      the full automation of the process of deploying software
-                      components onto the underlying computing infrastructure.
-                      For example, the "software-defined data center" is a
-                      vision where all IT infrastructure components are
-                      virtualized and available as services. The deployment of
-                      software systems is then a fully automated process,
-                      defined in software that brings together the necessary
-                      virtual infrastructure components as well as the
-                      application components to provision a complete IT system.
-                      New tools and languages are under active development to
-                      support this vision. The aim of this research is to
-                      extend quality assurance techniques available for
-                      "traditional" software components to software-defined
-                      infrastructure components. For example, techniques for
-                      reviewing, testing, and measurement must be rethought,
-                      redeveloped, and revalidated to allow assurance of
-                      reliability, maintainability, security, portability, etc.
-                      specifically on the software that defines cloud
-                      infrastructure components and deployment processes.
-                    </p>
-                  </li>
-                  <li>
-                    <h4>Characterization of performance in key parameters of software development </h4>
-                    <p>Key performance indicators are used by the industry to
-                      make decisions. In the specific case of software
-                      development, it is also necessary to have this type of
-                      indicators to help third parties interested in investing
-                      resources/participating or fostering the use of specific
-                      technologies, to fully understand the risks associated to
-                      that product. This is even more marked in the case of
-                      open source projects, where development may be community
-                      or company driven and third parties contribute to the
-                      source code. Thus, the raise of specific indicators for
-                      software development and more specifically in open source
-                      projects, will help to facilitate the decision process
-                      for stakeholders and improve the attractiveness of those
-                      projects offering such information to those stakeholders.
-                    </p>
-                  </li>
-                </ul>
-                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+            <div class="modal-body">
+              <h3>Process Quality</h3>
+              <h4>Process quality in cloud-related software development projects</h4>
+              With so many enterprises having an increasingly large fraction of
+              their business dependent on cloud-related applications, in many
+              cases using continuous deployment techniques, the quality of the
+              development processes producing those applications becomes of
+              paramount importance. Not only classical approaches to quality
+              need to be adapted to the cloud development environments (such as
+              process quality assurance), but also new approaches should be
+              developed (such as the detection of bad process smells, which
+              allows for taking preemptive actions, or the characterization of
+              development performance, which allows to detect good practices).
+              To be of practical use, these quality-improving and
+              quality-assuring techniques have to be reflected in adequate
+              tooling, that can be of use in current development environments.
+              <hr>
+              <h3>Research Topics </h3>
+              <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                  <h4>Bad process smells in software development repositories</h4>
+                  Similar to how "code smells" help to find constructs in
+                  source code that could be more error-prone, "process smells"
+                  help to detect patterns in software development processes
+                  that could lead to errors.  To detect them, information is
+                  extracted from software development repositories (source code
+                  management systems, issues tracking system, code review
+                  system, etc.), and analyzed with statistical and other
+                  techniques. The detection of these patterns can lead to take
+                  early corrective actions, which are very important specially
+                  in systems with high time-to- deploy constraints, such as
+                  those related to cloud computing.
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                  <h4>Quality assurance of software-defined cloud infrastructure </h4>
+                  A driving objective within the cloud computing domain is the
+                  full automation of the process of deploying software
+                  components onto the underlying computing infrastructure.  For
+                  example, the "software-defined data center" is a vision where
+                  all IT infrastructure components are virtualized and
+                  available as services. The deployment of software systems is
+                  then a fully automated process, defined in software that
+                  brings together the necessary virtual infrastructure
+                  components as well as the application components to provision
+                  a complete IT system.  New tools and languages are under
+                  active development to support this vision. The aim of this
+                  research is to extend quality assurance techniques available
+                  for "traditional" software components to software-defined
+                  infrastructure components. For example, techniques for
+                  reviewing, testing, and measurement must be rethought,
+                  redeveloped, and revalidated to allow assurance of
+                  reliability, maintainability, security, portability, etc.
+                  specifically on the software that defines cloud
+                  infrastructure components and deployment processes.
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                  <h4>Characterization of performance in key parameters of software development</h4>
+                  Key performance indicators are used by the industry to make
+                  decisions. In the specific case of software development, it
+                  is also necessary to have this type of indicators to help
+                  third parties interested in investing resources/participating
+                  or fostering the use of specific technologies, to fully
+                  understand the risks associated to that product. This is even
+                  more marked in the case of open source projects, where
+                  development may be community or company driven and third
+                  parties contribute to the source code. Thus, the raise of
+                  specific indicators for software development and more
+                  specifically in open source projects, will help to facilitate
+                  the decision process for stakeholders and improve the
+                  attractiveness of those projects offering such information to
+                  those stakeholders.
+                </div>
               </div>
+              <hr>
+              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <!-- Process quality -->
     <div class="portfolio-modal modal fade" id="quality" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -344,96 +336,88 @@
         </div>
         <div class="container">
           <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-              <div class="modal-body">
-                <h2>Quality</h2>
-                <h4>Quality in cloud-related software development</h4>
-                <hr class="star-primary">
-                <p>Cloud applications are usually complex pieces of software,
-                  build by loosely coupled, geographically distributed, large
-                  teams of developers. These developers work in many different
-                  domain areas and have to keep-up with the pressing needs of a
-                  quickly-evolving industry, while at the same time keeping
-                  quality and performance under control. In this environment,
-                  casual information obtained by just &ldquo;keeping an
-                  eye&ldquo; on the project quality is less than enough.
-                  Methodical approaches, supported by tools that deal with the
-                  rich information obtained from software repositories, are
-                  needed to have a complete view of how a project is behaving,
-                  evolving and performing. This work package will address these
-                  needs by looking at specific aspects of the problem, and
-                  providing comprehensive solutions.
-                </p>
-                <h3> Research Topics </h3>
-                <ul class="list-inline item-details">
-                  <li>
-                    <h4>Impact of code review in cloud computing development</h4>
-                    <p>Most large software development projects use code review
-                      to improve the quality of the code changes merged to the
-                      main code base. Yet, little is known on how this process
-                      affects to important parameters of development and
-                      deployment processes. By analyzing code review
-                      repositories, and other repositories with information
-                      about development and deployment, we expect to better
-                      understand how code review affects to the whole
-                      development and deployment process, when bottlenecks are
-                      caused, when unnecessary delays are found, how expensive
-                      code review is in terms of impact on different metrics,
-                      and to which extent it has an overall positive impact.
-                    </p>
-                  </li>
-                  <li>
-                    <h4> Improving cloud-related testing practices</h4>
-                    <p>Software engineering is a team effort: Sometimes even
-                      hundreds of professionals collaborate to devise, build,
-                      evaluate, and modify a software system. To support
-                      teamwork in software development, industry is creating
-                      new integrated development environments (IDEs) in the
-                      cloud, which offers a better platform for synchronous
-                      development.  The current state of the practice is to
-                      have a sort of &ldquo;Google Docs for code.&rdquo; The
-                      aim of this research is to investigate how to use
-                      cloud-based IDEs to improve testing practices.
-                      Specifically, it will qualitatively and quantitatively
-                      investigate how testing is currently performed in
-                      cloud-based IDEs. Then it will investigate how to reuse
-                      test run information across developers, to better link
-                      tests and program components.  This will help, for
-                      example, to eliminate the unnecessary time spent in the
-                      same tests on the same code, thus reducing the time to
-                      check the quality of software systems,
-                      and&mdash;consequently&mdash;the development life cycle.
-                    </p>
-                  </li>
-                  <li>
-                    :
-                    <h4>Data driven development software in cloud-related software development projects</h4>
-                    <p>The main goal of this line is to define a method to help
-                      developers to obtain indicators about how the software
-                      development is being undertaken. Typical methods are
-                      focused on the quality of the product and its evolution,
-                      but not in the community around the product and how
-                      developers interact among them. This method should
-                      specifically help open source projects to understand,
-                      measure and improve their software development process.
-                      Once this process will be driven by metrics, it will
-                      help, for example, to avoid issues, to detect specific
-                      deviations from the arranged issue tracking system
-                      policy, and to check the health of the demographics of
-                      the community among other facts. This data driven
-                      development can lead to faster decision-making process
-                      especially in continuous deployment contexts, such as in
-                      industries related to cloud computing.
-                    </p>
-                  </li>
-                </ul>
-                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+            <div class="modal-body">
+              <h3>Process Quality</h3>
+              <h4>Quality in cloud-related software development</h4>
+              Cloud applications are usually complex pieces of software, build
+              by loosely coupled, geographically distributed, large teams of
+              developers. These developers work in many different domain areas
+              and have to keep-up with the pressing needs of a quickly-evolving
+              industry, while at the same time keeping quality and performance
+              under control. In this environment, casual information obtained
+              by just &ldquo;keeping an eye&ldquo; on the project quality is
+              less than enough.  Methodical approaches, supported by tools that
+              deal with the rich information obtained from software
+              repositories, are needed to have a complete view of how a project
+              is behaving, evolving and performing. This work package will
+              address these needs by looking at specific aspects of the
+              problem, and providing comprehensive solutions.
+              <hr>
+              <h3> Research Topics </h3>
+              <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                  <h4>Impact of code review in cloud computing development</h4>
+                  Most large software development projects use code review to
+                  improve the quality of the code changes merged to the main
+                  code base. Yet, little is known on how this process affects
+                  to important parameters of development and deployment
+                  processes. By analyzing code review repositories, and other
+                  repositories with information about development and
+                  deployment, we expect to better understand how code review
+                  affects to the whole development and deployment process, when
+                  bottlenecks are caused, when unnecessary delays are found,
+                  how expensive code review is in terms of impact on different
+                  metrics, and to which extent it has an overall positive
+                  impact.
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                  <h4>Improving cloud-related testing practices</h4>
+                  Software engineering is a team effort: Sometimes even
+                  hundreds of professionals collaborate to devise, build,
+                  evaluate, and modify a software system. To support teamwork
+                  in software development, industry is creating new integrated
+                  development environments (IDEs) in the cloud, which offers a
+                  better platform for synchronous development.  The current
+                  state of the practice is to have a sort of &ldquo;Google Docs
+                  for code.&rdquo; The aim of this research is to investigate
+                  how to use cloud-based IDEs to improve testing practices.
+                  Specifically, it will qualitatively and quantitatively
+                  investigate how testing is currently performed in cloud-based
+                  IDEs. Then it will investigate how to reuse test run
+                  information across developers, to better link tests and
+                  program components.  This will help, for example, to
+                  eliminate the unnecessary time spent in the same tests on the
+                  same code, thus reducing the time to check the quality of
+                  software systems, and&mdash;consequently&mdash;the
+                  development life cycle.
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                  <h4>Data driven development software in cloud-related software development projects</h4>
+                  The main goal of this line is to define a method to help
+                  developers to obtain indicators about how the software
+                  development is being undertaken. Typical methods are focused
+                  on the quality of the product and its evolution, but not in
+                  the community around the product and how developers interact
+                  among them. This method should specifically help open source
+                  projects to understand, measure and improve their software
+                  development process.  Once this process will be driven by
+                  metrics, it will help, for example, to avoid issues, to
+                  detect specific deviations from the arranged issue tracking
+                  system policy, and to check the health of the demographics of
+                  the community among other facts. This data driven development
+                  can lead to faster decision-making process especially in
+                  continuous deployment contexts, such as in industries related
+                  to cloud computing.
+                </div>
               </div>
+              <hr>
+              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <!-- Optimization -->
     <div class="portfolio-modal modal fade" id="optimization" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -444,96 +428,87 @@
         </div>
         <div class="container">
           <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-              <div class="modal-body">
-                <h2>Operations</h2>
-                <h4>Quality in cloud operations</h4>
-                <hr class="star-primary">
-                <p>With an increasing number of applications being developed or
-                  ported to cloud environments, the extension of traditional
-                  practices in specific application domains to the cloud is a
-                  must.  However, this extension is usually not direct, since
-                  many new problems appear due to the inherently complex
-                  framework in which cloud applications work. As an example,
-                  engineering practices used for building software artifacts
-                  cannot be readily extended to cover the configuration of
-                  large and complex cloud infrastructures.  On the other hand,
-                  aspects that traditional applications have been addressing
-                  for a long time, such as energy efficiency or security, are
-                  now appearing for their cloud counterparts.
-                </p>
-                <h3> Research Topics </h3>
-                <ul class="list-inline item-details">
-                  <li>
-                    <h4>Configuration management and administration of cloud computing systems </h4>
-                    <p>Currently cloud computing systems are in the Cambrian
-                      explosion phase programming languages and processor
-                      architectures were at the dawn of computing. Tens of
-                      cloud providers offer services under a variety of models,
-                      with their systems requiring configuration and
-                      administration in disparate ways. This is the expected
-                      outcome of rapid innovation in a new era, but it has
-                      costs. Systems and skills built associated with each
-                      provider lack portability tying them to a specific one,
-                      while the market's fragmentation increases costs and
-                      undermines the ability to innovate at higher levels of
-                      the infrastructure stack. The aim of the proposed
-                      research is to identify the high-level portable building
-                      blocks that can be used for building and managing
-                      computing systems on the cloud in a way that satisfies
-                      sound software engineering principles. These blocks
-                      include processes, tools, and techniques for achieving
-                      appropriate levels of functionality, reliability,
-                      usability, efficiency, maintainability, and portability.
-                    </p>
-                  </li>
-                  <li>
-                    <h4>Energy-efficiency of cloud computing systems </h4>
-                    <p>Energy consumption attributable to IT systems is
-                      significant and increasing at an alarming rate. Decades
-                      of resource-agnostic development of software systems have
-                      contributed to this trend. Ongoing improvements of
-                      energy-efficiency at the hardware and data center level
-                      threaten to be canceled out by wasteful software. Cloud
-                      computing has been identified as a development that may
-                      help to curb this trend, but naive use of cloud
-                      infrastructures may actually have the opposite effect,
-                      for instance due to increased data traffic, insufficient
-                      elasticity, or additional virtualization layers. The aim
-                      of this research is to provide software engineers with
-                      techniques to measure energy consumption, identify energy
-                      leaks, and optimize consumption without compromising
-                      competing quality attributes such as performance and
-                      reliability. These techniques enable the cloud to realize
-                      its energy-saving potential.
-                    </p>
-                  </li>
-                  <li>
-                    <h4> Secure systems on cloud computing infrastructures</h4>
-                    <p>A basic tenet of IT security is that if an attacker has
-                      access to the physical assets of a computing system all
-                      bets are off regarding the confidentiality, integrity,
-                      and availability associated with the services it
-                      provides. This need not be so. It has been for decades a
-                      theoretical possibility and a practical reality to
-                      communicate reliably over noisy channels, and to perform
-                      accurate computations with unreliable building blocks.
-                      Recent theoretical advances suggest that performing
-                      secure computations on insecure infrastructures is also
-                      possible. The aim of this research is to develop and
-                      combine theory and practice that will allow the
-                      construction of secure systems on top on an inherently
-                      insecure cloud computing infrastructure. On the
-                      theoretical front the research will explore the limits of
-                      what levels of security guarantees can be provided given
-                      specific adversary capabilities, while on the practical
-                      front the research will examine how these guarantees can
-                      be implemented in the form of useful building blocks.
-                    </p>
-                  </li>
-                </ul>
-                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+            <div class="modal-body">
+              <h3>Applications</h3>
+              <h4>Domain application and optimization</h4>
+              When an increasing amount of new applications are being ported to
+              cloud environments, the extension of traditional practices in
+              specific application domains to the cloud is a must. However,
+              this extension is usually not direct, since many new problems
+              appear due to the inherently complex framework in which cloud
+              applications work. As an example, the extension of the IDE
+              concept to the cloud, and the configuration management of large
+              cloud systems cannot be directly extrapolated from their
+              traditional counterparts. From a convergent point of view,
+              aspects that traditional applications have been addressing for a
+              long time are now appearing for their cloud counterparts, such as
+              energy efficiency aspects or security.  <hr>
+              <h3> Research Topics </h3>
+              <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                  <h4>Configuration management and administration of cloud computing systems</h4>
+                  Currently cloud computing systems are in the Cambrian
+                  explosion phase programming languages and processor
+                  architectures were at the dawn of computing. Tens of cloud
+                  providers offer services under a variety of models, with
+                  their systems requiring configuration and administration in
+                  disparate ways. This is the expected outcome of rapid
+                  innovation in a new era, but it has costs. Systems and skills
+                  built associated with each provider lack portability tying
+                  them to a specific one, while the market's fragmentation
+                  increases costs and undermines the ability to innovate at
+                  higher levels of the infrastructure stack. The aim of the
+                  proposed research is to identify the high-level portable
+                  building blocks that can be used for building and managing
+                  computing systems on the cloud in a way that satisfies sound
+                  software engineering principles. These blocks include
+                  processes, tools, and techniques for achieving appropriate
+                  levels of functionality, reliability, usability, efficiency,
+                  maintainability, and portability.
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                  <h4>Energy-efficiency of cloud computing systems</h4>
+                  Energy consumption attributable to IT systems is significant
+                  and increasing at an alarming rate. Decades of
+                  resource-agnostic development of software systems have
+                  contributed to this trend. Ongoing improvements of
+                  energy-efficiency at the hardware and data center level
+                  threaten to be canceled out by wasteful software. Cloud
+                  computing has been identified as a development that may help
+                  to curb this trend, but naive use of cloud infrastructures
+                  may actually have the opposite effect, for instance due to
+                  increased data traffic, insufficient elasticity, or
+                  additional virtualization layers. The aim of this research is
+                  to provide software engineers with techniques to measure
+                  energy consumption, identify energy leaks, and optimize
+                  consumption without compromising competing quality attributes
+                  such as performance and reliability. These techniques enable
+                  the cloud to realize its energy-saving potential.
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                  <h4>Secure systems on cloud computing infrastructures</h4>
+                  A basic tenet of IT security is that if an attacker has
+                  access to the physical assets of a computing system all bets
+                  are off regarding the confidentiality, integrity, and
+                  availability associated with the services it provides. This
+                  need not be so. It has been for decades a theoretical
+                  possibility and a practical reality to communicate reliably
+                  over noisy channels, and to perform accurate computations
+                  with unreliable building blocks. Recent theoretical advances
+                  suggest that performing secure computations on insecure
+                  infrastructures is also possible. The aim of this research is
+                  to develop and combine theory and practice that will allow
+                  the construction of secure systems on top on an inherently
+                  insecure cloud computing infrastructure. On the theoretical
+                  front the research will explore the limits of what levels of
+                  security guarantees can be provided given specific adversary
+                  capabilities, while on the practical front the research will
+                  examine how these guarantees can be implemented in the form
+                  of useful building blocks.
+                </div>
               </div>
+              <hr>
+              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
             </div>
           </div>
         </div>
