@@ -181,6 +181,13 @@ section h2 {
 
 section.success a {
     color: #fff;
+    text-decoration: underline;
+    background: #18bc9c;
+}
+
+section.success a:hover, a:focus, a:active {
+    color: black;
+    text-decoration: underline;
     background: #18bc9c;
 }
 
