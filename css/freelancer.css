@@ -179,6 +179,11 @@ section h2 {
     font-size: 3em;
 }
 
+section.success a {
+    color: #fff;
+    background: #18bc9c;
+}
+
 section.success {
     color: #fff;
     background: #18bc9c;
